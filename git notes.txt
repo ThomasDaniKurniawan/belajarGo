@@ -1,0 +1,40 @@
+jadi git ada 3 level yg dikenal dengan three tree level
+
+1. working directory
+2. stagging area/level
+3. repository
+ 
+snapshot : istilah umumnya versi perubahan yg terjadi di repository level (program yg telah di commit)
+
+ mengembalikan versi
+
+    --utk merestore di working directory gunakan :
+    git restore <nama_file.extention>
+
+    --utk merestore di stage
+    git restore --staged <nama_file.extention>
+
+
+melihat log history
+
+    -- log detail
+    git log 
+
+    -- log ringkas
+    git log --oneline
+
+    -- log perubahan terakhir
+    git show
+
+    -- lihat log detail per commit
+    git show <hash code>
+
+    -- branching commit log 
+    git log --oneline --graph
+
+
+melihat perbandingan 
+
+    -- melihat perbedaan antara working directory dgn stagging area
+    git diff 
+

@@ -3,7 +3,7 @@ import "fmt"
 
 
 /*
-content : recurtion defer function, panic, recover
+content : recurtion, defer function
 
 **/
 
@@ -25,10 +25,10 @@ func logging(){
 
 func runApplication(){
 	/*
-	defer function ini akan diexecute setelah function yg memanggilnya 
+	defer function akan diexecute setelah function yg memanggilnya 
 	selesai diexecute, sekalipun error akan tetap dijalankan.
 	**/
-	defer logging()
+	defer logging() // logging akan diexecute setelah semua code program di runApplication selesai diexecute.
 	fmt.Println("menjalankan aplikasi")
 }
 

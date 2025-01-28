@@ -1,0 +1,1 @@
+struct biasanya ditulis dgn format: pascal case (hurup depannya kapital)
