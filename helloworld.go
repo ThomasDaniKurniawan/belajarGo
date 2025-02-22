@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+/*
+table of content
+	- slice data type
+**/
+
 func main() {
 	fmt.Println("hello world!")
 
@@ -84,4 +89,6 @@ func main() {
 	fmt.Println("Copy")
 	fmt.Println(toSlices)
 	fmt.Println(fromSlices)
+
+
 }

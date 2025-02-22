@@ -1,1 +1,5 @@
-struct biasanya ditulis dgn format: pascal case (hurup depannya kapital)
+struct biasanya ditulis dgn format: pascal case (huruf depannya kapital e.g. Personality, Person, etc)
+
+untuk menentukan tipe class itu public or private agak bed dgn di java:
+ - Public functions start with a capital letter, and can be accessed from other packages. 
+ - Private functions start with a lowercase letter, and can only be accessed from within the same package.
